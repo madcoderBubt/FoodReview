@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj": {}
+    "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj": {}
   },
   "projects": {
-    "D:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj": {
+    "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj",
+        "projectUniqueName": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj",
         "projectName": "FoodReview.Android",
-        "projectPath": "D:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj",
+        "projectPath": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj",
         "packagesPath": "C:\\Users\\shbso\\.nuget\\packages\\",
-        "outputPath": "D:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\obj\\",
+        "outputPath": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "D:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj": {
-                "projectPath": "D:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj"
+              "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj": {
+                "projectPath": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj"
               }
             }
           }
@@ -54,17 +54,18 @@
         }
       }
     },
-    "D:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj": {
+    "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj",
+        "projectUniqueName": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj",
         "projectName": "FoodReview",
-        "projectPath": "D:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj",
+        "projectPath": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj",
         "packagesPath": "C:\\Users\\shbso\\.nuget\\packages\\",
-        "outputPath": "D:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\obj\\",
+        "outputPath": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\shbso\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -117,7 +118,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
