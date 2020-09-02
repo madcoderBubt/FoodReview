@@ -6,6 +6,21 @@
              mc:Ignorable="d"
              x:Class="FoodReview.App">
     <Application.Resources>
-
+        <ResourceDictionary>
+            <Style x:Key="navTitle" TargetType="Label">
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontAttributes" Value="Italic,Bold" />
+            </Style>
+            
+            <Style x:Key="buttonStyle" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="Fill" />
+                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                <Setter Property="BorderColor" Value="LightGray" />
+                <Setter Property="BorderRadius" Value="5" />
+                <Setter Property="BackgroundColor" Value="Gray" />
+                <Setter Property="TextColor" Value="WhiteSmoke" />
+                <Setter Property="Margin" Value="5,0" />
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

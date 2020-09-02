@@ -4,9 +4,6 @@ E:\Running Project\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\ref
 E:\Running Project\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\FoodReview.pdb
 E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\App.xaml.g.cs
 E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\MasterDetailPage1.xaml.g.cs
-E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\MasterDetailPage1Detail.xaml.g.cs
-E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\MasterDetailPage1Master.xaml.g.cs
 E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.csproj.CoreCompileInputs.cache
 E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.AssemblyInfoInputs.cache
 E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.AssemblyInfo.cs
@@ -14,3 +11,5 @@ E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\Xam
 E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.dll
 E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\ref\FoodReview.dll
 E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.pdb
+E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.csprojAssemblyReference.cache
+E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\HomePage.xaml.g.cs

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FoodReview.View;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -16,6 +17,24 @@ namespace FoodReview
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private void btnSign_Clicked(object sender, EventArgs e)
+        {
+            try
+            {
+                if (txtUserName.Text == "madcoder" && txtPassword.Text == "1234")
+                {
+                    //await App.Current.MainPage.Navigation.PushAsync(new HomePage());
+                    App.Current.MainPage = new NavigationPage(new HomePage());
+                }
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            
         }
     }
 }

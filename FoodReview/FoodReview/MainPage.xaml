@@ -4,10 +4,35 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             xmlns:local="clr-namespace:FoodReview"
              x:Class="FoodReview.MainPage">
+    
+    <!--<NavigationPage.TitleView>
+        <Label Text="Log In Page" Style="{StaticResource navTitle}"/>
+    </NavigationPage.TitleView>-->
 
-    <StackLayout>
+    <StackLayout HorizontalOptions="FillAndExpand">
         <!-- Place new controls here -->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+        </Grid>
+        
+        <StackLayout Grid.Row="0" VerticalOptions="CenterAndExpand">
+            <!--Icon Section-->
+            <Image Source="{local:ImageResource FoodReview.Images.icon.png}" />
+        </StackLayout>
+
+        <StackLayout Grid.Row="1"
+                     VerticalOptions="StartAndExpand" 
+                     Padding="10,0"
+                     HorizontalOptions="Fill">
+            <Entry Placeholder="User Name" HorizontalTextAlignment="Center" x:Name="txtUserName"/>
+            <Entry Placeholder="Password" HorizontalTextAlignment="Center" x:Name="txtPassword"/>
+            <Button Text="Sign In" Clicked="btnSign_Clicked" x:Name="btnSign"/>
+        </StackLayout>
         
     </StackLayout>
 
