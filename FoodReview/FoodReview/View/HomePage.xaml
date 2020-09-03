@@ -3,11 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FoodReview.View.HomePage">
 
-    <ContentPage.Padding>
+    <!--<ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness">
             <On Platform="Android">0,0,0,0</On>
         </OnPlatform>
-    </ContentPage.Padding>
+    </ContentPage.Padding>-->
     
     <NavigationPage.TitleView>
         <Label Text="Log In Page" Style="{StaticResource navTitle}"></Label>
@@ -16,12 +16,14 @@
     <ContentPage.Content>
         <StackLayout BackgroundColor="LightGray">
             <StackLayout VerticalOptions="EndAndExpand">
+                <Label Text="Choose Location" HorizontalOptions="Center" TextDecorations="Underline"/>
                 <Button Text="Badda" Style="{StaticResource buttonStyle}"></Button>
                 <Button Text="Dhanmondi" Style="{StaticResource buttonStyle}"></Button>
                 <Button Text="Old Dhaka" Style="{StaticResource buttonStyle}"></Button>
                 <Button Text="Mirpur" Style="{StaticResource buttonStyle}"></Button>
             </StackLayout>
 
+            
             <Label Text="CopyWrite @MADCoder"
                    VerticalOptions="EndAndExpand" 
                    HorizontalOptions="Center"
