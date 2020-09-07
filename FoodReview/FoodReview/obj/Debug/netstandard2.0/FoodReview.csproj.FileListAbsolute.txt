@@ -13,3 +13,20 @@ E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\ref
 E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.pdb
 E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.csprojAssemblyReference.cache
 E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\HomePage.xaml.g.cs
+E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\RegisterPage.xaml.g.cs
+F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\FoodReview.deps.json
+F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\FoodReview.dll
+F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\ref\FoodReview.dll
+F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\FoodReview.pdb
+F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.csprojAssemblyReference.cache
+F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\App.xaml.g.cs
+F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\HomePage.xaml.g.cs
+F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\RegisterPage.xaml.g.cs
+F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.AssemblyInfoInputs.cache
+F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.AssemblyInfo.cs
+F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.csproj.CoreCompileInputs.cache
+F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\XamlC.stamp
+F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.dll
+F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\ref\FoodReview.dll
+F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.pdb

@@ -1931,24 +1931,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\shbso\\.nuget\\packages\\": {},
+    "C:\\Users\\LENOVO\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj",
+      "projectUniqueName": "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj",
       "projectName": "FoodReview.Android",
-      "projectPath": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj",
-      "packagesPath": "C:\\Users\\shbso\\.nuget\\packages\\",
-      "outputPath": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\obj\\",
+      "projectPath": "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj",
+      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
+      "outputPath": "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\shbso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1962,8 +1962,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj": {
-              "projectPath": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj"
+            "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj": {
+              "projectPath": "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj"
             }
           }
         }

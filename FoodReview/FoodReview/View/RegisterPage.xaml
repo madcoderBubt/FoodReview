@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FoodReview.View.RegisterPage">
+    <ContentPage.Content>
+        <!--<StackLayout HorizontalOptions="FillAndExpand">-->
+            <!-- Place new controls here -->
+        <Grid VerticalOptions="FillAndExpand" BackgroundColor="BlanchedAlmond">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="280"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+            <StackLayout Grid.Row="0" VerticalOptions="FillAndExpand" >
+                <!--Icon Section-->
+                <!--<Image Source="{local:ImageResource FoodReview.Images.icon.png}" />-->
+                <Image Source="logo.png" WidthRequest="100" 
+                           HeightRequest="120" VerticalOptions="EndAndExpand"
+                           Margin="0,15"/>
+            </StackLayout>
+
+            <StackLayout Grid.Row="1"
+                     VerticalOptions="FillAndExpand" 
+                     Padding="10,15">
+                <Entry Placeholder="User Name" HorizontalTextAlignment="Center" x:Name="txtUserName" Text="" 
+                        />
+                <Entry Placeholder="Email" HorizontalTextAlignment="Center" x:Name="txtEmail" Text="" 
+                        />
+                <Entry Placeholder="Password" HorizontalTextAlignment="Center" x:Name="txtPassword" Text="" 
+                        IsPassword="True"/>
+                <Entry Placeholder="Re-enter Password" HorizontalTextAlignment="Center" x:Name="txtPassRenter"
+                         IsPassword="True"
+                         />
+                <Button Text="Sign In"  x:Name="btnSign" BackgroundColor="White"/>
+            </StackLayout>
+
+            </Grid>
+            
+        <!--</StackLayout>-->
+    </ContentPage.Content>
+</ContentPage>

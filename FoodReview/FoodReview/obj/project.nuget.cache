@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "8/kSv8YJiEagcS2hW2OFnroswySpsrUB8tVKbet52jsNOD3m8TwIzBQqTrsTVmiFjXCbjV4pHwInl5y/TG+m8Q==",
+  "dgSpecHash": "D/883qJCO7s+a6rErutCdBDHvUuc07eQygwDKOcifzPDcP5PTHzc8khPgM/gX2AXrgGz8WgK5f1eMaw3uKz29A==",
   "success": true,
-  "projectFilePath": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj",
+  "projectFilePath": "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\shbso\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "C:\\Users\\shbso\\.nuget\\packages\\xamarin.forms\\4.8.0.1269\\xamarin.forms.4.8.0.1269.nupkg.sha512"
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\xamarin.forms\\4.8.0.1269\\xamarin.forms.4.8.0.1269.nupkg.sha512"
   ],
   "logs": []
 }
