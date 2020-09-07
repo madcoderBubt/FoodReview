@@ -13,3 +13,4 @@ E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\ref
 E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.pdb
 E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.csprojAssemblyReference.cache
 E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\HomePage.xaml.g.cs
+E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\RegisterPage.xaml.g.cs
