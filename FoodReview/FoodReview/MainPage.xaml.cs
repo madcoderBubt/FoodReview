@@ -36,5 +36,10 @@ namespace FoodReview
             }
             
         }
+
+        private void btnSignUp_Clicked(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new RegisterPage();
+        }
     }
 }

@@ -7,13 +7,26 @@
             <!-- Place new controls here -->
         <Grid VerticalOptions="FillAndExpand" BackgroundColor="BlanchedAlmond">
                 <Grid.RowDefinitions>
+<<<<<<< HEAD
                     <RowDefinition Height="280"/>
                     <RowDefinition Height="*"/>
+=======
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="6*"/>
+>>>>>>> 44f38a1b3be5afca30fa8be20d5c6c182d580192
                 </Grid.RowDefinitions>
 
             <StackLayout Grid.Row="0" VerticalOptions="FillAndExpand" >
                 <!--Icon Section-->
                 <!--<Image Source="{local:ImageResource FoodReview.Images.icon.png}" />-->
+<<<<<<< HEAD
+=======
+                <StackLayout>
+                    <Button Text="Back" TextTransform="Uppercase" FontAttributes="Bold"
+                            BackgroundColor="DeepSkyBlue" TextColor="White"
+                            Clicked="btnBack_Clicked" x:Name="btnBack"/>
+                </StackLayout>
+>>>>>>> 44f38a1b3be5afca30fa8be20d5c6c182d580192
                 <Image Source="logo.png" WidthRequest="100" 
                            HeightRequest="120" VerticalOptions="EndAndExpand"
                            Margin="0,15"/>
@@ -29,12 +42,20 @@
                 <Entry Placeholder="Password" HorizontalTextAlignment="Center" x:Name="txtPassword" Text="" 
                         IsPassword="True"/>
                 <Entry Placeholder="Re-enter Password" HorizontalTextAlignment="Center" x:Name="txtPassRenter"
+<<<<<<< HEAD
                          IsPassword="True"
                          />
                 <Button Text="Sign In"  x:Name="btnSign" BackgroundColor="White"/>
             </StackLayout>
 
             </Grid>
+=======
+                         IsPassword="True"/>
+                <Button Text="Sign Up"  x:Name="btnSign" BackgroundColor="White"/>
+            </StackLayout>
+
+        </Grid>
+>>>>>>> 44f38a1b3be5afca30fa8be20d5c6c182d580192
             
         <!--</StackLayout>-->
     </ContentPage.Content>
