@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj": {}
+    "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj": {}
   },
   "projects": {
-    "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj": {
+    "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj",
+        "projectUniqueName": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj",
         "projectName": "FoodReview.Android",
-        "projectPath": "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview.Android\\obj\\",
+        "projectPath": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj",
+        "packagesPath": "C:\\Users\\shbso\\.nuget\\packages\\",
+        "outputPath": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shbso\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj": {
-                "projectPath": "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj"
+              "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj": {
+                "projectPath": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj"
               }
             }
           }
@@ -54,20 +54,21 @@
         }
       }
     },
-    "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj": {
+    "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj",
+        "projectUniqueName": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj",
         "projectName": "FoodReview",
-        "projectPath": "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview\\obj\\",
+        "projectPath": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj",
+        "packagesPath": "C:\\Users\\shbso\\.nuget\\packages\\",
+        "outputPath": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shbso\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -121,7 +122,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
