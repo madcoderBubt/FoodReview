@@ -31,3 +31,5 @@ F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\
 F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.pdb
 =======
 >>>>>>> 44f38a1b3be5afca30fa8be20d5c6c182d580192
+E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.csproj.CoreCompileInputs.cache
+E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\XamlC.stamp

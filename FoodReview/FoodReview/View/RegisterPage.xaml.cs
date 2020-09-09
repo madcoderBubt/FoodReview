@@ -16,13 +16,10 @@ namespace FoodReview.View
         {
             InitializeComponent();
         }
-<<<<<<< HEAD
-=======
 
         private void btnBack_Clicked(object sender, EventArgs e)
         {
             App.Current.MainPage = new MainPage();
         }
->>>>>>> 44f38a1b3be5afca30fa8be20d5c6c182d580192
     }
 }

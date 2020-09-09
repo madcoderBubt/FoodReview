@@ -3064,24 +3064,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LENOVO\\.nuget\\packages\\": {},
+    "C:\\Users\\shbso\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj",
+      "projectUniqueName": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj",
       "projectName": "FoodReview.Android",
-      "projectPath": "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj",
-      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview.Android\\obj\\",
+      "projectPath": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj",
+      "packagesPath": "C:\\Users\\shbso\\.nuget\\packages\\",
+      "outputPath": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shbso\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -3095,8 +3095,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj": {
-              "projectPath": "F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj"
+            "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj": {
+              "projectPath": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj"
             }
           }
         }
@@ -3116,13 +3116,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file F:\\Project Files SDP4\\FoodReview\\FoodReview\\FoodReview.Android\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
