@@ -91,11 +91,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\layout\Hello.xml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\FoodReview\FoodReview.csproj">
       <Project>{74376F68-11B3-4001-99D4-5CD04010AC7C}</Project>
       <Name>FoodReview</Name>
