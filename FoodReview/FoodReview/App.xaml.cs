@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FoodReview.View;
+
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,8 +12,8 @@ namespace FoodReview
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
-            //MainPage = new NavigationPage(new MainPage());
+            //MainPage = new MainPage();
+            MainPage = new NavigationPage(new GalleryPage());
         }
 
         protected override void OnStart()

@@ -41,7 +41,6 @@ E:\Running Project\FoodReview\FoodReview\FoodReview.Android\obj\Debug\90\res\mip
 E:\Running Project\FoodReview\FoodReview\FoodReview.Android\obj\Debug\90\res\mipmap-xxhdpi\launcher_foreground.png
 E:\Running Project\FoodReview\FoodReview\FoodReview.Android\obj\Debug\90\res\mipmap-xxxhdpi\icon.png
 E:\Running Project\FoodReview\FoodReview\FoodReview.Android\obj\Debug\90\res\mipmap-xxxhdpi\launcher_foreground.png
-E:\Running Project\FoodReview\FoodReview\FoodReview.Android\obj\Debug\90\res\layout\hello.xml
 E:\Running Project\FoodReview\FoodReview\FoodReview.Android\obj\Debug\90\res\drawable\twitter.png
 E:\Running Project\FoodReview\FoodReview\FoodReview.Android\obj\Debug\90\res\drawable\logo.png
 E:\Running Project\FoodReview\FoodReview\FoodReview.Android\obj\Debug\90\uploadflags.txt

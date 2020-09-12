@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FoodReview.View.GalleryPage"
+             NavigationPage.HasNavigationBar="False">
+    
+    <ContentPage.Content>
+
+        <Grid BackgroundColor="#141414" Padding="30"
+              VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Padding="0,10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                <Image Source="twitter.png" Aspect="AspectFit" />
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="Resturent" TextColor="White" FontSize="50" HorizontalTextAlignment="Center"/>
+                    <Label Text="Review" TextColor="White" Opacity="0.5" 
+                           FontSize="30" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Grid>
+
+            <CollectionView x:Name="ResturentCollection" Grid.Row="1" SelectionMode="Single"
+                            ItemsSource="{Binding Resturents}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" VerticalItemSpacing="15"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+
+                        <Grid HorizontalOptions="FillAndExpand" BackgroundColor="DarkKhaki" Padding="0,5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="2*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="3*"/>
+                            </Grid.ColumnDefinitions>
+                            
+                            <Image Source="logo.png" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2" 
+                                   WidthRequest="100" HorizontalOptions="Start" VerticalOptions="End"/>
+                            <Label Text="{Binding Name}" TextColor="White" FontSize="18"
+                                   Grid.Row="0" Grid.Column="1"/>
+                            <Label Text="{Binding Address}" TextColor="White" FontSize="12"
+                                   Grid.Row="1" Grid.Column="1" HorizontalOptions="Start" VerticalOptions="Center"/>
+                        </Grid>
+                        
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            
+        </Grid>
+        
+    </ContentPage.Content>
+</ContentPage>
