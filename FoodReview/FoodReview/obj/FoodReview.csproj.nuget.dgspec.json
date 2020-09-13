@@ -1,21 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj": {}
+    "D:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj": {}
   },
   "projects": {
-    "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj": {
+    "D:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj",
+        "projectUniqueName": "D:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj",
         "projectName": "FoodReview",
-        "projectPath": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj",
+        "projectPath": "D:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\FoodReview.csproj",
         "packagesPath": "C:\\Users\\shbso\\.nuget\\packages\\",
-        "outputPath": "E:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\obj\\",
+        "outputPath": "D:\\Running Project\\FoodReview\\FoodReview\\FoodReview\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\shbso\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,10 +42,6 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[3.1.7, )"
-            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
@@ -72,7 +67,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

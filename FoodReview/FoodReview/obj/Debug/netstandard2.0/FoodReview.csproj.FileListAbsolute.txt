@@ -1,18 +1,3 @@
-E:\Running Project\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\FoodReview.deps.json
-E:\Running Project\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\FoodReview.dll
-E:\Running Project\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\ref\FoodReview.dll
-E:\Running Project\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\FoodReview.pdb
-E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\App.xaml.g.cs
-E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.AssemblyInfoInputs.cache
-E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.AssemblyInfo.cs
-E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.dll
-E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\ref\FoodReview.dll
-E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.pdb
-E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.csprojAssemblyReference.cache
-E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\HomePage.xaml.g.cs
-E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\RegisterPage.xaml.g.cs
-<<<<<<< HEAD
 F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\FoodReview.deps.json
 F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\FoodReview.dll
 F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\ref\FoodReview.dll
@@ -29,9 +14,39 @@ F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\
 F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.dll
 F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\ref\FoodReview.dll
 F:\Project Files SDP4\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.pdb
-=======
->>>>>>> 44f38a1b3be5afca30fa8be20d5c6c182d580192
-E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.csproj.CoreCompileInputs.cache
-E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Running Project\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\FoodReview.deps.json
+E:\Running Project\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\FoodReview.dll
+E:\Running Project\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\ref\FoodReview.dll
+E:\Running Project\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\FoodReview.pdb
+E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\App.xaml.g.cs
+E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\DetailsPage.xaml.g.cs
 E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\GalleryPage.xaml.g.cs
+E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\HomePage.xaml.g.cs
+E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\RegisterPage.xaml.g.cs
+E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.AssemblyInfoInputs.cache
+E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.AssemblyInfo.cs
+E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.csproj.CoreCompileInputs.cache
+E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\XamlC.stamp
+E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.dll
+E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\ref\FoodReview.dll
+E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.pdb
+E:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.csprojAssemblyReference.cache
+D:\Running Project\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\FoodReview.deps.json
+D:\Running Project\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\FoodReview.dll
+D:\Running Project\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\ref\FoodReview.dll
+D:\Running Project\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\FoodReview.pdb
+D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.csprojAssemblyReference.cache
+D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\DetailsPage.xaml.g.cs
+D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\GalleryPage.xaml.g.cs
+D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\HomePage.xaml.g.cs
+D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\RegisterPage.xaml.g.cs
+D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.AssemblyInfoInputs.cache
+D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.AssemblyInfo.cs
+D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.csproj.CoreCompileInputs.cache
+D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.dll
+D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\ref\FoodReview.dll
+D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.pdb

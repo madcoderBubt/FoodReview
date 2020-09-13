@@ -6,14 +6,14 @@
     
     <ContentPage.Content>
 
-        <Grid BackgroundColor="#141414" Padding="30"
+        <Grid BackgroundColor="#141414" Padding="10"
               VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
 
-            <Grid Padding="0,10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <Grid Padding="0,10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="AliceBlue">
                 <Image Source="twitter.png" Aspect="AspectFit" />
                 <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
                     <Label Text="Resturent" TextColor="White" FontSize="50" HorizontalTextAlignment="Center"/>
