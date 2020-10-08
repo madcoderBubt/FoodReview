@@ -45,8 +45,6 @@ D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\Vie
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\RegisterPage.xaml.g.cs
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.AssemblyInfoInputs.cache
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.AssemblyInfo.cs
-D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.csproj.CoreCompileInputs.cache
-D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.dll
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\ref\FoodReview.dll
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.pdb

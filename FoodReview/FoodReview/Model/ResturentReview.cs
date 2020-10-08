@@ -1,13 +1,14 @@
-﻿using System;
+﻿using FoodReview.Model.Shared;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace FoodReview.Model
 {
-    class ResturentReview
+    class ResturentReview : SModel
     {
-        public String Subject { get; set; }
-        public String Details { get; set; }
+        public String Title { get; set; }
+        public String Details { get; set; }        
         public int FoodRating { get; set; }
         public int ServiceRating { get; set; }
         public DateTime ReviewDate { get; set; }
@@ -15,5 +16,6 @@ namespace FoodReview.Model
         public ResturentModel Resturent { get; set; }
         public int UserId { get; set; }
         public UserModel User { get; set; }
+
     }
 }
