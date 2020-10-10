@@ -5,9 +5,9 @@ using System.Text;
 
 namespace FoodReview.Model.Shared
 {
-    class SModel
+    public class SModel
     {
-        [PrimaryKey]
+        [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
     }
 }

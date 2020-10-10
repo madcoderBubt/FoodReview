@@ -17,31 +17,31 @@ namespace FoodReview.View
         public GalleryPage()
         {
             InitializeComponent();
-            var ListItem = new List<ResturentModel>()
+            var ListItem = new List<Restaurant>()
             {
-                new ResturentModel()
+                new Restaurant()
                 {
                     Name = "Pizza Hut 3",
                     Address = "94 Dhaka",
                     Phone = "01111666",
-                    Closed = DateTime.Now,
-                    Opens = DateTime.Today
+                    CloseAt = DateTime.Now,
+                    OpenAt = DateTime.Today
                 },
-                new ResturentModel()
+                new Restaurant()
                 {
                     Name = "Pizza Hut 50",
                     Address = "94 Dhaka",
                     Phone = "01111666",
-                    Closed = DateTime.Now,
-                    Opens = DateTime.Today
+                    CloseAt = DateTime.Now,
+                    OpenAt = DateTime.Today
                 },
-                new ResturentModel()
+                new Restaurant()
                 {
                     Name = "Pizza Hut 555",
                     Address = "94 Dhaka",
                     Phone = "01111666",
-                    Closed = DateTime.Now,
-                    Opens = DateTime.Today
+                    CloseAt = DateTime.Now,
+                    OpenAt = DateTime.Today
                 }
             };
             ResturentCollection.ItemsSource = ListItem;

@@ -2335,7 +2335,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\shbso\\.nuget\\packages\\": {},
+    "C:\\Users\\MadCoder\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
@@ -2344,7 +2344,7 @@
       "projectUniqueName": "D:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj",
       "projectName": "FoodReview.Android",
       "projectPath": "D:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\FoodReview.Android.csproj",
-      "packagesPath": "C:\\Users\\shbso\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\MadCoder\\.nuget\\packages\\",
       "outputPath": "D:\\Running Project\\FoodReview\\FoodReview\\FoodReview.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
@@ -2352,7 +2352,7 @@
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\shbso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\MadCoder\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
