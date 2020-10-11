@@ -10,7 +10,8 @@ namespace FoodReview.Data
     {
         public bool AddRestaurent(Restaurant restaurant)
         {
-            throw new NotImplementedException();
+            //Code here
+            return true;
         }
 
         public void DeleteRestaurent(int RestaurentId)
