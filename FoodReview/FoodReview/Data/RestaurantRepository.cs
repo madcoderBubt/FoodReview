@@ -11,6 +11,8 @@ namespace FoodReview.Data
         public bool AddRestaurent(Restaurant restaurant)
         {
             //Code here
+            
+
             return true;
         }
 

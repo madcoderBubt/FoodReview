@@ -1,4 +1,7 @@
-﻿using FoodReview.View;
+﻿using FoodReview.Data;
+using FoodReview.Model;
+using FoodReview.View;
+using FoodReview.ViewModel;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,32 +17,47 @@ namespace FoodReview
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
+        UserRepository user;
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private void btnSign_Clicked(object sender, EventArgs e)
+        private async void btnSign_Clicked(object sender, EventArgs e)
         {
+            user = new UserRepository();
             try
             {
-                if (txtUserName.Text == "madcoder" && txtPassword.Text == "1234")
+                LoginViewModel login = new LoginViewModel()
+                {
+                    UserName = txtUserName.Text,
+                    Password = txtPassword.Text
+                };
+
+                //txtUserName.Text == "madcoder" && txtPassword.Text == "1234"
+                if (await user.Login(login))
                 {
                     //await App.Current.MainPage.Navigation.PushAsync(new HomePage());
-                    App.Current.MainPage = new NavigationPage(new HomePage());
+                    App.Current.MainPage = new HomePage();
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-
-                throw;
+                await DisplayAlert("Error Notify", ex.Message, "Ok");
             }
             
         }
 
-        private void btnSignUp_Clicked(object sender, EventArgs e)
+        private async void btnSignUp_Clicked(object sender, EventArgs e)
         {
-            App.Current.MainPage = new RegisterPage();
+            try
+            {
+                await App.Current.MainPage.Navigation.PushAsync(new RegisterPage());
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Error Notify", ex.Message, "Ok");
+            }
         }
     }
 }

@@ -13,6 +13,6 @@ namespace FoodReview.Model
         public String PhoneNo { get; set; }
         public String Email { get; set; }
         public int RoleId { get; set; }
-        public Role Role { get; set; }
+        //public Role Role { get; set; }
     }
 }

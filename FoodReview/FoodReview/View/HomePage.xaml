@@ -1,35 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FoodReview.View.HomePage">
-
-    <!--<ContentPage.Padding>
-        <OnPlatform x:TypeArguments="Thickness">
-            <On Platform="Android">0,0,0,0</On>
-        </OnPlatform>
-    </ContentPage.Padding>-->
+             x:Class="FoodReview.View.HomePage"
+             xmlns:pages="clr-namespace:FoodReview.View">
+  <MasterDetailPage.Master>
+    <pages:HomePageMaster x:Name="MasterPage" />
+  </MasterDetailPage.Master>
     
-    <NavigationPage.TitleView>
-        <Label Text="Log In Page" Style="{StaticResource navTitle}"></Label>
-    </NavigationPage.TitleView>
-    
-    <ContentPage.Content>
-        <StackLayout BackgroundColor="LightGray">
-            <StackLayout VerticalOptions="EndAndExpand">
-                <Label Text="Choose Location" HorizontalOptions="Center" TextDecorations="Underline"/>
-                <Button Text="Badda" Style="{StaticResource buttonStyle}"></Button>
-                <Button Text="Dhanmondi" Style="{StaticResource buttonStyle}"></Button>
-                <Button Text="Old Dhaka" Style="{StaticResource buttonStyle}"></Button>
-                <Button Text="Mirpur" Style="{StaticResource buttonStyle}"></Button>
-            </StackLayout>
-
-            
-            <Label Text="CopyWrite @MADCoder"
-                   VerticalOptions="EndAndExpand" 
-                   HorizontalOptions="Center"
-                   FontSize="10"
-                   LineHeight="15"
-                   TextColor="SlateGray"/>
-        </StackLayout>
-    </ContentPage.Content>
-</ContentPage>
+  <MasterDetailPage.Detail>
+    <NavigationPage>
+      <x:Arguments>
+        <pages:HomePageDetail />
+      </x:Arguments>
+    </NavigationPage>
+  </MasterDetailPage.Detail>
+</MasterDetailPage>

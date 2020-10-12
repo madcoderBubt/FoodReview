@@ -24,12 +24,20 @@ namespace FoodReview
             }
         }
 
+        public static string DbPath
+        {
+            get
+            {
+                return Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "restaurent.db3");
+            }
+        }
+
         public App()
         {
             InitializeComponent();
 
             //MainPage = new MainPage();
-            MainPage = new NavigationPage(new GalleryPage());
+            MainPage = new NavigationPage(new MainPage());
         }
 
         protected override void OnStart()

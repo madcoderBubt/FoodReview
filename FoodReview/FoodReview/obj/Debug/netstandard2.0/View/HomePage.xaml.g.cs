@@ -14,11 +14,15 @@ namespace FoodReview.View {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\HomePage.xaml")]
-    public partial class HomePage : global::Xamarin.Forms.ContentPage {
+    public partial class HomePage : global::Xamarin.Forms.MasterDetailPage {
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::FoodReview.View.HomePageMaster MasterPage;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(HomePage));
+            MasterPage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::FoodReview.View.HomePageMaster>(this, "MasterPage");
         }
     }
 }
