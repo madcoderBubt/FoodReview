@@ -4,7 +4,7 @@
              x:Class="FoodReview.View.RegisterPage">
 
     <NavigationPage.TitleView>
-        <Label Text="Create New Account"/>
+        <Label Text="Create New Account" Style="{StaticResource navTitle}"/>
     </NavigationPage.TitleView>
     
     <ContentPage.Content>
@@ -16,33 +16,34 @@
                 <RowDefinition Height="6*"/>
             </Grid.RowDefinitions>
 
-            <Grid Padding="0,10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="Transparent">
-                <Image Source="logo.png" Aspect="AspectFit" />
+            <Grid Padding="0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#222">
+                <Image Source="img_2.jpg" Aspect="AspectFill" Opacity="0.4" IsOpaque="True"/>
                 <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
-                    <Label Text="Food Lovers" TextColor="Black" FontSize="50" HorizontalTextAlignment="Center"/>
-                    <Label Text="Register Here" TextColor="ForestGreen"
-                           FontSize="30" HorizontalTextAlignment="Center"/>
+                    <Label Text="BD Food Lover's" Style="{StaticResource pageTitle}"/>
+                    <Label Text="Find Your Desired Restuarents" TextColor="LawnGreen" HorizontalTextAlignment="Center"/>
                 </StackLayout>
             </Grid>
 
-            <StackLayout Grid.Row="1"
+            <ScrollView Grid.Row="1" Orientation="Vertical">
+                <StackLayout
                      VerticalOptions="FillAndExpand" 
-                     Padding="10,15">
-                <Entry Placeholder="First Name" HorizontalTextAlignment="Start" x:Name="txtFirstName" Text="" 
-                        />
-                <Entry Placeholder="Last Name" HorizontalTextAlignment="Start" x:Name="txtLastName" Text="" 
-                        />
-                <Entry Placeholder="Email" HorizontalTextAlignment="Start" x:Name="txtEmail" Text="" 
-                        />
-                <Entry Placeholder="Phone" HorizontalTextAlignment="Start" x:Name="txtPhone" Text="" 
-                        />
-                <Entry Placeholder="Password" HorizontalTextAlignment="Start" x:Name="txtPassword" Text="" 
-                        IsPassword="True" />
-                <Entry Placeholder="Re-enter Password" HorizontalTextAlignment="Start" x:Name="txtPassRenter"
-                         IsPassword="True"/>
-                <Button Text="Sign Up" Clicked="btnSign_Clicked"  x:Name="btnSign" BackgroundColor="White"/>
-                <Label x:Name="msgError"></Label>
-            </StackLayout>
+                     Padding="10,15" >
+                    <Entry Placeholder="First Name" HorizontalTextAlignment="Start" x:Name="txtFirstName" Text="" 
+                            />
+                    <Entry Placeholder="Last Name" HorizontalTextAlignment="Start" x:Name="txtLastName" Text="" 
+                            />
+                    <Entry Placeholder="Email" HorizontalTextAlignment="Start" x:Name="txtEmail" Text="" 
+                            />
+                    <Entry Placeholder="Phone" HorizontalTextAlignment="Start" x:Name="txtPhone" Text="" 
+                            />
+                    <Entry Placeholder="Password" HorizontalTextAlignment="Start" x:Name="txtPassword" Text="" 
+                            IsPassword="True" />
+                    <Entry Placeholder="Re-enter Password" HorizontalTextAlignment="Start" x:Name="txtPassRenter"
+                             IsPassword="True"/>
+                    <Button Text="Sign Up" Clicked="btnSign_Clicked"  x:Name="btnSign" Style="{StaticResource buttonStyle}"/>
+                    <Label x:Name="msgError"></Label>
+                </StackLayout>
+            </ScrollView>
 
         </Grid>
         <!--</StackLayout>-->

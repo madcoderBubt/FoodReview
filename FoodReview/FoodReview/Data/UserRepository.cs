@@ -65,7 +65,9 @@ namespace FoodReview.Data
 
         public void Logout()
         {
-            throw new NotImplementedException();
+            UserSessionData.UserId = 0;
+            UserSessionData.UserEmail = null;
+            UserSessionData.UserName = null;
         }
 
         public async Task<bool> Register(User user)

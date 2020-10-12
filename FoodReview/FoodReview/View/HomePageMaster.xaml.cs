@@ -1,4 +1,5 @@
-﻿using FoodReview.Model;
+﻿using FoodReview.Data;
+using FoodReview.Model;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -34,20 +35,21 @@ namespace FoodReview.View
 
             public HomePageMasterViewModel()
             {
+                //Listing Menu Items
                 MenuItems = new ObservableCollection<MasterMenuItem>(new[]
                 {
                     new MasterMenuItem { 
-                        IconSource = "icon.png",
+                        IconSource = "logo.png",
                         DisplayName = "Detail Page",
                         TargetType = typeof(DetailsPage)
                     },
                     new MasterMenuItem {
-                        IconSource = "icon.png",
+                        IconSource = "twitter.png",
                         DisplayName = "Gallery Page",
                         TargetType = typeof(GalleryPage)
                     },
                     new MasterMenuItem {
-                        IconSource = "icon.png",
+                        IconSource = "logo.png",
                         DisplayName = "Detail Page 2",
                         TargetType = typeof(HomePageDetail)
                     },
@@ -64,6 +66,14 @@ namespace FoodReview.View
                 PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
             }
             #endregion
+        }
+
+        private void btnLogOut_Clicked(object sender, EventArgs e)
+        {
+            var user = new UserRepository();
+            user.Logout();
+
+            App.Current.MainPage = new NavigationPage(new MainPage());
         }
     }
 }

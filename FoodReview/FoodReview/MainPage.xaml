@@ -23,6 +23,8 @@
             <StackLayout Grid.Row="0" VerticalOptions="EndAndExpand">
                 <!--Icon Section-->
                 <!--<Image Source="{local:ImageResource FoodReview.Images.icon.png}" />-->
+                <Label Text="BD Food Lover's" Style="{StaticResource pageTitle}"/>
+                <Label Text="Find Your Desired Restuarents" HorizontalTextAlignment="Center"/>
                 <Image Source="logo.png" WidthRequest="100" 
                            HeightRequest="100" VerticalOptions="EndAndExpand"
                            Margin="0,15"/>
@@ -35,9 +37,9 @@
                 <Entry Placeholder="Enter Email" HorizontalTextAlignment="Center" x:Name="txtUserName"/>
                 <Entry Placeholder="Password" HorizontalTextAlignment="Center" x:Name="txtPassword" IsPassword="True"/>
                 <Label Text="Forget Password?" Padding="5,0,0,0" />
-                <Button Text="Sign In" Clicked="btnSign_Clicked" x:Name="btnSign" BackgroundColor="White"/>
+                <Button Text="Sign In" Clicked="btnSign_Clicked" x:Name="btnSign" Style="{StaticResource buttonStyle}"/>
                 <Button Text="New Here? Sign Up" Clicked="btnSignUp_Clicked" x:Name="btnSignUp" 
-                        BackgroundColor="Transparent" TextColor="BlueViolet"/>
+                        BackgroundColor="Transparent" TextColor="SeaGreen"/>
             </StackLayout>
         </Grid>
     </StackLayout>

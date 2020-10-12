@@ -11,14 +11,22 @@
                 <Setter Property="TextColor" Value="White"/>
                 <Setter Property="FontAttributes" Value="Italic,Bold" />
             </Style>
-            
+
+            <Style x:Key="pageTitle" TargetType="Label">
+                <Setter Property="TextColor" Value="CadetBlue"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="30"/>
+                <Setter Property="FontAttributes" Value="Italic,Bold" />
+            </Style>
+
             <Style x:Key="buttonStyle" TargetType="Button">
                 <Setter Property="HorizontalOptions" Value="Fill" />
                 <Setter Property="VerticalOptions" Value="CenterAndExpand" />
-                <Setter Property="BorderColor" Value="LightGray" />
+                <Setter Property="BorderColor" Value="LightBlue" />
                 <Setter Property="BorderRadius" Value="5" />
-                <Setter Property="BackgroundColor" Value="Gray" />
-                <Setter Property="TextColor" Value="WhiteSmoke" />
+                <Setter Property="BackgroundColor" Value="SkyBlue" />
+                <Setter Property="TextColor" Value="White" />
                 <Setter Property="Margin" Value="5,0" />
             </Style>
         </ResourceDictionary>

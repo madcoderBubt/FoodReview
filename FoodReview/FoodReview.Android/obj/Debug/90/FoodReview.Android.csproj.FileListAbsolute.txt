@@ -966,3 +966,8 @@ D:\Running Project\FoodReview\FoodReview\FoodReview.Android\obj\Debug\90\android
 D:\Running Project\FoodReview\FoodReview\FoodReview.Android\obj\Debug\90\android\assets\System.Buffers.dll
 D:\Running Project\FoodReview\FoodReview\FoodReview.Android\obj\Debug\90\android\assets\System.Memory.dll
 D:\Running Project\FoodReview\FoodReview\FoodReview.Android\obj\Debug\90\android\assets\System.Runtime.CompilerServices.Unsafe.dll
+D:\Running Project\FoodReview\FoodReview\FoodReview.Android\obj\Debug\90\res\drawable\img_1.jpg
+D:\Running Project\FoodReview\FoodReview\FoodReview.Android\obj\Debug\90\res\drawable\img_2.jpg
+D:\Running Project\FoodReview\FoodReview\FoodReview.Android\obj\Debug\90\res\drawable\img_3.jpg
+D:\Running Project\FoodReview\FoodReview\FoodReview.Android\obj\Debug\90\res\drawable\img_4.jpg
+D:\Running Project\FoodReview\FoodReview\FoodReview.Android\obj\Debug\90\res\drawable\login.png
