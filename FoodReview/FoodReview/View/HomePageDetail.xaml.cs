@@ -1,4 +1,6 @@
-﻿using System;
+﻿using FoodReview.Data;
+using FoodReview.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +17,11 @@ namespace FoodReview.View
         public HomePageDetail()
         {
             InitializeComponent();
+        }
+
+        private async void btnAddRestaurent_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AddRestaurant());
         }
     }
 }

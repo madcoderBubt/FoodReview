@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FoodReview.View.AddRestaurant"
+             Title="Add Restaurant">
+
+    <ContentPage.Content>
+        <Grid VerticalOptions="FillAndExpand" BackgroundColor="BlanchedAlmond">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="6*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Padding="0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#222">
+                <Image Source="img_2.jpg" Aspect="AspectFill" Opacity="0.4" IsOpaque="True"/>
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="BD Food Lover's" Style="{StaticResource pageTitle}"/>
+                    <Label Text="Find Your Desired Restuarents" TextColor="LawnGreen" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Grid>
+
+            <ScrollView Grid.Row="1" Orientation="Vertical">
+                <StackLayout
+                     VerticalOptions="FillAndExpand" 
+                     Padding="10,15" >
+                    <Entry Placeholder="Name" HorizontalTextAlignment="Start" x:Name="txtName" Text="{Binding Name}" 
+                            />
+                    <Entry Placeholder="Address" HorizontalTextAlignment="Start" x:Name="txtAddress" Text="" 
+                            />
+                    <Entry Placeholder="Phone" HorizontalTextAlignment="Start" x:Name="txtPhone" Text="" 
+                            />
+                    <Entry Placeholder="Website" HorizontalTextAlignment="Start" x:Name="txtWebsite" Text="" 
+                            />
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Opens" VerticalOptions="Center" TextColor="#222"/> 
+                        <TimePicker x:Name="dtOpenAt"  />
+                        <Label Text="Close" VerticalOptions="Center" TextColor="#222"/> 
+                        <TimePicker x:Name="dtCloseAt" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Dining" VerticalOptions="Center" TextColor="#222"/>
+                        <CheckBox x:Name="chkDining" />
+                        <Label Text="TakeAway" VerticalOptions="Center" TextColor="#222"/>
+                        <CheckBox x:Name="chkTakeAway"/>
+                        <Label Text="Delivey" VerticalOptions="Center" TextColor="#222"/>
+                        <CheckBox x:Name="chkDeliver"/>
+                    </StackLayout>
+                    <Button Text="Add New" Clicked="AddNewBtn_Clicked"  x:Name="btnAddNew" Style="{StaticResource buttonStyle}"/>
+                    <Label x:Name="msgError"></Label>
+                </StackLayout>
+            </ScrollView>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

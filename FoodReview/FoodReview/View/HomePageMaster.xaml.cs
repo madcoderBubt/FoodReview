@@ -24,9 +24,7 @@ namespace FoodReview.View
             InitializeComponent();
 
             BindingContext = new HomePageMasterViewModel();
-            ListView = MenuItemsListView;
-
-            
+            ListView = MenuItemsListView;   
         }
 
         class HomePageMasterViewModel : INotifyPropertyChanged

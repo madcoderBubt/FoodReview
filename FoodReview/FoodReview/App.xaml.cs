@@ -34,6 +34,8 @@ namespace FoodReview
 
         public App()
         {
+            Device.SetFlags(new string[] { "RadioButton_Experimental" });
+
             InitializeComponent();
 
             //MainPage = new MainPage();

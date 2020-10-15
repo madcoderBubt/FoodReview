@@ -1,19 +1,43 @@
 ﻿using FoodReview.Data.Interface;
 using FoodReview.Model;
+using SQLite;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace FoodReview.Data
 {
-    class RestaurantRepository : IRestaurentRepository
+    class RestaurantRepository //: IRestaurentRepository
     {
-        public bool AddRestaurent(Restaurant restaurant)
+        readonly SQLiteAsyncConnection sQLite;
+        public RestaurantRepository()
+        {
+            sQLite = new SQLiteAsyncConnection(App.DbPath);
+
+            //Create Table on DB if there is none using model
+            if (!sQLite.TableMappings.Any(m => m.MappedType.Name == typeof(Restaurant).Name))
+                sQLite.CreateTableAsync<Restaurant>().Wait();
+            if (!sQLite.TableMappings.Any(m => m.MappedType.Name == typeof(RestaurantReview).Name))
+                sQLite.CreateTableAsync<RestaurantReview>().Wait();
+        }
+        
+        public async Task<bool> AddRestaurent(Restaurant restaurant)
         {
             //Code here
-            
 
-            return true;
+            try
+            {
+                if (await sQLite.InsertAsync(restaurant) > 0)
+                    return true;
+                else
+                    return false;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
 
         public void DeleteRestaurent(int RestaurentId)
@@ -26,9 +50,17 @@ namespace FoodReview.Data
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Restaurant> GetRestaurentList()
+        public async Task<IList<Restaurant>> GetRestaurentList()
         {
-            throw new NotImplementedException();
+            try
+            {
+                var items = await sQLite.Table<Restaurant>().ToListAsync();
+                return items;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
         }
 
         public void GetRestaurentRankingById(int RestaurentId)

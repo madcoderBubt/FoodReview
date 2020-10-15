@@ -9,8 +9,8 @@ namespace FoodReview.Model
     {
         public String Name { get; set; }
         public String Address { get; set; }
-        public DateTime OpenAt { get; set; }
-        public DateTime CloseAt { get; set; }
+        public TimeSpan OpenAt { get; set; }
+        public TimeSpan CloseAt { get; set; }
         //public String Direction { get; set; }
         public String Phone { get; set; }
         public String Website { get; set; }

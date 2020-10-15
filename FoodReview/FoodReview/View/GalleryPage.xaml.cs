@@ -24,24 +24,24 @@ namespace FoodReview.View
                     Name = "Pizza Hut 3",
                     Address = "94 Dhaka",
                     Phone = "01111666",
-                    CloseAt = DateTime.Now,
-                    OpenAt = DateTime.Today
+                    CloseAt = DateTime.Now.TimeOfDay,
+                    OpenAt = DateTime.Now.AddMinutes(50).TimeOfDay
                 },
                 new Restaurant()
                 {
                     Name = "Pizza Hut 50",
                     Address = "94 Dhaka",
                     Phone = "01111666",
-                    CloseAt = DateTime.Now,
-                    OpenAt = DateTime.Today
+                    CloseAt = DateTime.Now.TimeOfDay,
+                    OpenAt = DateTime.Now.AddMinutes(50).TimeOfDay
                 },
                 new Restaurant()
                 {
                     Name = "Pizza Hut 555",
                     Address = "94 Dhaka",
                     Phone = "01111666",
-                    CloseAt = DateTime.Now,
-                    OpenAt = DateTime.Today
+                    CloseAt = DateTime.Now.TimeOfDay,
+                    OpenAt = DateTime.Now.AddMinutes(50).TimeOfDay
                 }
             };
             ResturentCollection.ItemsSource = ListItem;
