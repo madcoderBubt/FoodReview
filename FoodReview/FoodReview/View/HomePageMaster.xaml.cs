@@ -40,19 +40,24 @@ namespace FoodReview.View
                 {
                     new MasterMenuItem { 
                         IconSource = "logo.png",
-                        DisplayName = "Detail Page",
+                        DisplayName = "Explore",
                         TargetType = typeof(DetailsPage)
                     },
                     new MasterMenuItem {
                         IconSource = "twitter.png",
-                        DisplayName = "Gallery Page",
+                        DisplayName = "Find Restaurents",
                         TargetType = typeof(GalleryPage)
                     },
                     new MasterMenuItem {
                         IconSource = "logo.png",
-                        DisplayName = "Detail Page 2",
+                        DisplayName = "Profile",
                         TargetType = typeof(HomePageDetail)
                     },
+                    new MasterMenuItem {
+                        IconSource = "logo.png",
+                        DisplayName = "Admin Control",
+                        TargetType = typeof(HomePageDetail)
+                    }
                 });
             }
 

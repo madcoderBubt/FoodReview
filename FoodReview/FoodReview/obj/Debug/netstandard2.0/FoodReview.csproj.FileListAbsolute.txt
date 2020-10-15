@@ -52,3 +52,4 @@ D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\Foo
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\HomePageDetail.xaml.g.cs
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\HomePageMaster.xaml.g.cs
+D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\ExplorePage.xaml.g.cs

@@ -22,15 +22,46 @@
                         <RowDefinition Height="Auto"/>
                         <RowDefinition Height="10"/>
                     </Grid.RowDefinitions>
-                    <Label
-                      Grid.Column="1"
-                      Grid.Row="2"
-                      Text="{x:Static local:UserSessionData.UserName}"
-                      Style="{DynamicResource SubtitleStyle}"/>
-                    <ImageButton 
-                        Grid.Column="2" Grid.Row="2"
-                        Source="login.png" Clicked="btnLogOut_Clicked"
-                        x:Name="btnLogOut"></ImageButton>
+
+                    <StackLayout
+                        Orientation="Horizontal" 
+                        Grid.Column="1" Grid.Row="1">
+                        <Image Source="logo.png" WidthRequest="100" HorizontalOptions="Start"/>
+                        
+                        <StackLayout
+                            Padding="0,5,0,0">
+                            <Label 
+                            HorizontalOptions="StartAndExpand"
+                            Text="BD Food Lovers" TextColor="Gold"
+                            Style="{DynamicResource pageTitle}"/>
+                            
+                            <Label 
+                            HorizontalOptions="StartAndExpand"
+                            Text="Find Your Desired Restaurents" TextColor="LightCoral"
+                            Style="{x:StaticResource navTitle}"/>
+                            
+                        </StackLayout>                       
+                    </StackLayout>
+
+                    <StackLayout 
+                        Orientation="Horizontal"
+                        Grid.Column="1" Grid.Row="2" >
+                        <!--
+                            User Name & Logout Button Area
+                            BackgroundColor="SkyBlue"
+                        -->
+                        <Label 
+                            HorizontalOptions="StartAndExpand"
+                            Text="{x:Static local:UserSessionData.UserName}"
+                            Style="{DynamicResource SubtitleStyle}"/>
+
+                        <ImageButton 
+                            Source="login.png" Clicked="btnLogOut_Clicked"
+                            HorizontalOptions="EndAndExpand"
+                            BackgroundColor="Azure"
+                            Margin="5,0" Padding="3,0"
+                            x:Name="btnLogOut" />
+                    </StackLayout>
                 </Grid>
             </ListView.Header>
             <ListView.ItemTemplate>
