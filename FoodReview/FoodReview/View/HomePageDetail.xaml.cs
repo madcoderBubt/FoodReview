@@ -16,5 +16,10 @@ namespace FoodReview.View
         {
             InitializeComponent();
         }
+
+        private void btnAddRestaurent_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AddRestaurant());
+        }
     }
 }
