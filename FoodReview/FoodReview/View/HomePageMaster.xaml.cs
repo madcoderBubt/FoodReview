@@ -41,7 +41,7 @@ namespace FoodReview.View
                     new MasterMenuItem { 
                         IconSource = "logo.png",
                         DisplayName = "Explore",
-                        TargetType = typeof(DetailsPage)
+                        TargetType = typeof(ExplorePage)
                     },
                     new MasterMenuItem {
                         IconSource = "twitter.png",

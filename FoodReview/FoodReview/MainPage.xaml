@@ -34,8 +34,12 @@
                      VerticalOptions="StartAndExpand" 
                      Padding="10,15"
                      HorizontalOptions="Fill">
-                <Entry Placeholder="Enter Email" HorizontalTextAlignment="Center" x:Name="txtUserName"/>
-                <Entry Placeholder="Password" HorizontalTextAlignment="Center" x:Name="txtPassword" IsPassword="True"/>
+                <Entry Text="shbsovon@gmail.com"
+                    Placeholder="Enter Email" HorizontalTextAlignment="Center" 
+                    x:Name="txtUserName" />
+                <Entry Text="qwer1234"
+                    Placeholder="Password" HorizontalTextAlignment="Center" 
+                    x:Name="txtPassword" IsPassword="True"/>
                 <Label Text="Forget Password?" Padding="5,0,0,0" />
                 <Button Text="Sign In" Clicked="btnSign_Clicked" x:Name="btnSign" Style="{StaticResource buttonStyle}"/>
                 <Button Text="New Here? Sign Up" Clicked="btnSignUp_Clicked" x:Name="btnSignUp" 

@@ -4,9 +4,66 @@
              x:Class="FoodReview.View.ExplorePage">
     <ContentPage.Content>
         <StackLayout>
-            <ScrollView>
-                
-            </ScrollView>
+
+            <Grid 
+                HeightRequest="200"
+                Padding="0,0" HorizontalOptions="FillAndExpand" 
+                BackgroundColor="#222">
+
+                <Image Source="img_2.jpg" Aspect="AspectFill" Opacity="0.4" IsOpaque="True"/>
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="BD Food Lover's" Style="{StaticResource pageTitle}"/>
+                    <Label Text="Find Your Desired Restuarents" TextColor="SeaGreen" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+
+            </Grid>
+
+            <StackLayout BackgroundColor="#333">
+                <CollectionView x:Name="RestaurantView" 
+                                SelectionMode="Single"
+                                SelectionChanged="RestaurantView_SelectionChanged"
+                                ItemsSource="{Binding Restaurants}">
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" VerticalItemSpacing="10"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid HorizontalOptions="FillAndExpand">
+                                <StackLayout 
+                                    Padding="5,0"
+                                    Orientation="Horizontal" HorizontalOptions="Fill" 
+                                    VerticalOptions="Center" HeightRequest="150">
+                                    <Image 
+                                        Source="twitter.png" WidthRequest="100" 
+                                        VerticalOptions="CenterAndExpand"/>
+                                    <StackLayout 
+                                        Padding="5,0,0,0" Orientation="Vertical"
+                                        BackgroundColor="AliceBlue" 
+                                        HorizontalOptions="EndAndExpand">
+                                        <Label 
+                                            Text="{Binding Name}" FontSize="Title"
+                                            HorizontalOptions="FillAndExpand"/>
+                                        <Label 
+                                            Text="{Binding Address}" FontSize="Subtitle"
+                                            HorizontalOptions="FillAndExpand"/>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Food: 1/5"></Label>
+                                            <Label Text=" | "></Label>
+                                            <Label Text="Food: 3/5"></Label>
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Open: 1pm-8pm" />
+                                            <Button Text="Share"></Button>
+                                            <Button Text="Review"></Button>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </StackLayout>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
