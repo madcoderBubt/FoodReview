@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace FoodReview.View
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class DetailsPage : ContentPage
+    public partial class UserView : ContentPage
     {
-        public DetailsPage()
+        public UserView()
         {
             InitializeComponent();
         }

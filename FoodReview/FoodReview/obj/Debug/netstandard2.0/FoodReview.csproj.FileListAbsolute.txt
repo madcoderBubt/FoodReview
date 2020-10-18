@@ -39,7 +39,6 @@ D:\Running Project\FoodReview\FoodReview\FoodReview\bin\Debug\netstandard2.0\Foo
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.csprojAssemblyReference.cache
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\App.xaml.g.cs
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
-D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\DetailsPage.xaml.g.cs
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\GalleryPage.xaml.g.cs
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\HomePage.xaml.g.cs
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\RegisterPage.xaml.g.cs
@@ -55,3 +54,6 @@ D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\Vie
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\ExplorePage.xaml.g.cs
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\SharedView\RestaurentView.xaml.g.cs
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\AddRestaurant.xaml.g.cs
+D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\UserView.xaml.g.cs
+D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\AddRole.xaml.g.cs
+D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\RestaurantReviewPage.xaml.g.cs

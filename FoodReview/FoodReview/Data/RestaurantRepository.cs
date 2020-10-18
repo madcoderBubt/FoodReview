@@ -17,9 +17,9 @@ namespace FoodReview.Data
             sQLite = new SQLiteAsyncConnection(App.DbPath);
 
             //Create Table on DB if there is none using model
-            if (!sQLite.TableMappings.Any(m => m.MappedType.Name == typeof(Restaurant).Name))
+            //if (!sQLite.TableMappings.Any(m => m.MappedType.Name == typeof(Restaurant).Name))
                 sQLite.CreateTableAsync<Restaurant>().Wait();
-            if (!sQLite.TableMappings.Any(m => m.MappedType.Name == typeof(RestaurantReview).Name))
+            //if (!sQLite.TableMappings.Any(m => m.MappedType.Name == typeof(RestaurantReview).Name))
                 sQLite.CreateTableAsync<RestaurantReview>().Wait();
         }
         

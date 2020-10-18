@@ -8,17 +8,17 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("FoodReview.View.DetailsPage.xaml", "View/DetailsPage.xaml", typeof(global::FoodReview.View.DetailsPage))]
+[assembly: global::Xamarin.Forms.Xaml.XamlResourceIdAttribute("FoodReview.View.UserView.xaml", "View/UserView.xaml", typeof(global::FoodReview.View.UserView))]
 
 namespace FoodReview.View {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\DetailsPage.xaml")]
-    public partial class DetailsPage : global::Xamarin.Forms.ContentPage {
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("View\\UserView.xaml")]
+    public partial class UserView : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
-            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(DetailsPage));
+            global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(UserView));
         }
     }
 }

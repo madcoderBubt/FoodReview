@@ -23,5 +23,14 @@ namespace FoodReview.View
         {
             await Navigation.PushAsync(new AddRestaurant());
         }
+
+        private async void btnUsers_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new UserView());
+        }
+        private async void btnAddRole_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new AddRole());
+        }
     }
 }

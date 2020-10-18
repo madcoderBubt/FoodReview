@@ -16,23 +16,43 @@ namespace FoodReview.View
     {
         //List<Restaurant> Restaurants;
         RestaurantRepository restaurantRepo;
+
         public ExplorePage()
         {
             InitializeComponent();
-            restaurantRepo = new RestaurantRepository();
-            //var temp = restaurantRepo.GetRestaurentList();
-
-            //Handling Task Method
-            var task = Task.Run(async() => await restaurantRepo.GetRestaurentList());
-            RestaurantView.ItemsSource = task.Result;
 
             BindingContext = this; 
         }
 
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+
+            RefreshGrid();
+        }
+
+        private void RefreshGrid()
+        {
+            try
+            {
+                restaurantRepo = new RestaurantRepository();
+                //var temp = restaurantRepo.GetRestaurentList();
+
+                //Handling Task Method
+                var task = Task.Run(async () => await restaurantRepo.GetRestaurentList());
+                RestaurantView.ItemsSource = task.Result;
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Error", ex.Message, "Ok");
+            }
+        }
+
         private void RestaurantView_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            var item = e.CurrentSelection as Restaurant;
-
+            var item = e.CurrentSelection.FirstOrDefault() as Restaurant;
+            String s = item.Name;
+            Navigation.PushAsync(new RestaurantReviewPage(item.Name));
         }
     }
 }

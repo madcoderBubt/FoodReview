@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FoodReview.View.AddRole"
+             Title="Add or Edit Role">
+    <ContentPage.Content>
+        <Grid BackgroundColor="Azure">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5" />
+                <RowDefinition Height="150" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="5" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="5"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="5"/>
+            </Grid.ColumnDefinitions>
+
+            <StackLayout Grid.Row="1" Grid.Column="1">
+                <Entry IsVisible="false" x:Name="txtId"/>
+                <Label Text="Enter Role:"/>
+                <Entry Placeholder="Admin" x:Name="txtName"/>
+                <Button Text="Add or Edit" x:Name="btnAdd"/>
+            </StackLayout>
+
+            <CollectionView x:Name="ResturentCollection" Grid.Row="1" SelectionMode="Single"
+                            ItemsSource="{Binding Roles}">
+                <CollectionView.ItemsLayout>
+                    <GridItemsLayout Orientation="Vertical" VerticalItemSpacing="15"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+
+                        <Grid HorizontalOptions="FillAndExpand" BackgroundColor="DarkKhaki" Padding="0,5">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="2*"/>
+                                <RowDefinition Height="2*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="3*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Image Source="logo.png" Grid.Row="0" Grid.ColumnSpan="2" Grid.RowSpan="2" 
+                                   WidthRequest="100" HorizontalOptions="Start" VerticalOptions="End"/>
+                            <Label Text="{Binding Name}" TextColor="White" FontSize="18"
+                                   Grid.Row="0" Grid.Column="1"/>
+                        </Grid>
+
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

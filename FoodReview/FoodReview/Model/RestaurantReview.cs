@@ -13,9 +13,9 @@ namespace FoodReview.Model
         public int ServiceRating { get; set; }
         public DateTime ReviewDate { get; set; }
         public int ResturentId { get; set; }
-        public Restaurant Resturent { get; set; }
+        //public Restaurant Resturent { get; set; }
         public int UserId { get; set; }
-        public User User { get; set; }
+        //public User User { get; set; }
 
     }
 }

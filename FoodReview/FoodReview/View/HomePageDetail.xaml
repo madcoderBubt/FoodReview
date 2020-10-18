@@ -8,6 +8,8 @@
         <StackLayout>
 
             <Button Text="Add Restaurant" Clicked="btnAddRestaurent_Clicked" x:Name="btnAddRestaurent" />
+            <Button Text="Add Role" Clicked="btnAddRole_Clicked" x:Name="btnAddRole" />
+            <Button Text="View Users" Clicked="btnUsers_Clicked" x:Name="btnUsers" />
 
         </StackLayout>
     </ContentPage.Content>

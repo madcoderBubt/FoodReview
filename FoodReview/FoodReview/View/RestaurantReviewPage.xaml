@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FoodReview.View.RestaurantReviewPage"
+             Title="Restaurant Reviews">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="Welcome to Restaurant Review!" />
+            <Label x:Name="txtRestaurant" Text="Hello World"
+                   FontSize="Title" TextColor="Orange"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
