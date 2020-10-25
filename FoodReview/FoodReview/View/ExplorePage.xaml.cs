@@ -52,7 +52,7 @@ namespace FoodReview.View
         {
             var item = e.CurrentSelection.FirstOrDefault() as Restaurant;
             String s = item.Name;
-            Navigation.PushAsync(new RestaurantReviewPage(item.Name));
+            Navigation.PushAsync(new RestaurantPage(item));
         }
     }
 }

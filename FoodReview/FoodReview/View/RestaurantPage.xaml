@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FoodReview.View.RestaurantPage">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <StackLayout>
+                <Grid 
+                HeightRequest="200"
+                Padding="0,0" HorizontalOptions="FillAndExpand" 
+                BackgroundColor="#222" >
+
+                    <Image Source="img_2.jpg" Aspect="AspectFill" Opacity="0.4" IsOpaque="True"/>
+                    <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                        <Label x:Name="txtName" Text="Tasty Treat" Style="{x:StaticResource pageTitle}"/>
+                        <StackLayout Padding="0,10" Orientation="Horizontal" >
+                            <Label x:Name="txtWebsite" Text="Website: foodpanda.com" TextColor="SkyBlue"/>
+                            <BoxView  BackgroundColor="Green" HeightRequest="0" WidthRequest="2"/>
+                            <Label x:Name="txtPhone" Text="Phone: 012345678901" TextColor="SkyBlue"/>
+                        </StackLayout>
+                    </StackLayout>
+
+                </Grid>
+
+                <StackLayout Padding="10,0" Orientation="Horizontal">
+                    <Label x:Name="txtStatus" Text="Closed" TextColor="Red"/>
+                    <Label x:Name="txtTime" Text="- Opens: 10PM" />
+                </StackLayout>
+                <StackLayout Padding="10,0" Orientation="Horizontal">
+                    <Label x:Name="txtAddress" Text="Road 7, Rupnagar Residential, Mirpur, Dhaka-1216" />
+                </StackLayout>
+                <StackLayout Padding="10,0" Orientation="Horizontal">
+                    <Label Text="Facilities: "/>
+                    <Label x:Name="txtDelivery" Text="Delivery"/>
+                    <Label x:Name="txtTakeaway" Text="Takeaway" />
+                    <Label x:Name="txtDining" Text="Dining" />
+                </StackLayout>
+
+
+            </StackLayout>
+
+            <!--#region RestaurantReviewListing -->
+            <StackLayout BackgroundColor="#333">
+                <CollectionView x:Name="ReviewItem" 
+                                SelectionMode="Single"
+                                SelectionChanged="ReviewItem_SelectionChanged"
+                                ItemsSource="{Binding Restaurants}">
+                    <CollectionView.ItemsLayout>
+                        <GridItemsLayout Orientation="Vertical" VerticalItemSpacing="10"/>
+                    </CollectionView.ItemsLayout>
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Grid HorizontalOptions="FillAndExpand">
+                                <StackLayout 
+                                    Padding="5,0"
+                                    Orientation="Horizontal" HorizontalOptions="Fill" 
+                                    VerticalOptions="Center" HeightRequest="150">
+                                    <Image 
+                                        Source="twitter.png" WidthRequest="100" 
+                                        VerticalOptions="Center" HorizontalOptions="Start"/>
+                                    <StackLayout 
+                                        Padding="5,0,0,0" Orientation="Vertical"
+                                        BackgroundColor="AliceBlue" 
+                                        HorizontalOptions="FillAndExpand">
+                                        <Label 
+                                            Text="{Binding Name}" FontSize="Title"
+                                            HorizontalOptions="FillAndExpand"/>
+                                        <Label 
+                                            Text="{Binding Address}" FontSize="Subtitle"
+                                            HorizontalOptions="FillAndExpand"/>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Food: 1/5"></Label>
+                                            <Label Text=" | "></Label>
+                                            <Label Text="Food: 3/5"></Label>
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="{Binding OpenAt}" />
+                                            <Button Text="Share"></Button>
+                                            <Button Text="Review"></Button>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </StackLayout>
+                            </Grid>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </StackLayout>
+            <!--#endregion-->
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
