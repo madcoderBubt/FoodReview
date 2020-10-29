@@ -46,11 +46,11 @@
                                         <Label 
                                             Text="{Binding Address}" FontSize="Subtitle"
                                             HorizontalOptions="FillAndExpand"/>
-                                        <StackLayout Orientation="Horizontal">
+                                        <!--<StackLayout Orientation="Horizontal">
                                             <Label Text="Food: 1/5"></Label>
                                             <Label Text=" | "></Label>
                                             <Label Text="Food: 3/5"></Label>
-                                        </StackLayout>
+                                        </StackLayout>-->
                                         <StackLayout Orientation="Horizontal">
                                             <Label Text="{Binding OpenAt}" />
                                             <Button Text="Share"></Button>

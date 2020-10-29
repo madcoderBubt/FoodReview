@@ -1,16 +1,35 @@
 ﻿using FoodReview.Data.Interface;
 using FoodReview.Model;
+using SQLite;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace FoodReview.Data
 {
-    class ReviewRepository : IReviewRepository
+    class ReviewRepository 
     {
-        public bool AddReview(RestaurantReview review)
+        private readonly SQLiteAsyncConnection sQLite;
+
+        public ReviewRepository()
         {
-            throw new NotImplementedException();
+            sQLite = new SQLiteAsyncConnection(App.DbPath);
+        }
+
+        public async Task<bool> AddReview(RestaurantReview review)
+        {
+            try
+            {
+                if (await sQLite.InsertAsync(review) > 0)
+                    return true;
+                else
+                    return false;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
 
         public bool DeleteReview(RestaurantReview review)

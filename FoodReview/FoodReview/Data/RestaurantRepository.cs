@@ -73,9 +73,17 @@ namespace FoodReview.Data
             throw new NotImplementedException();
         }
 
-        public IEnumerable<RestaurantReview> GetReviewList(int RestaurentId)
+        public async Task<IEnumerable<RestaurantReview>> GetReviewList(int RestaurentId)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var items = await sQLite.Table<RestaurantReview>().Where(f=> f.ResturentId == RestaurentId).ToListAsync();
+                return items;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
         }
 
         public bool UpdateRestaurent(Restaurant restaurant)

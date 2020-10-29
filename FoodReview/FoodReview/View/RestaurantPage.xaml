@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FoodReview.View.RestaurantPage">
+             x:Class="FoodReview.View.RestaurantPage"
+             Title="Review Page">
+
     <ContentPage.Content>
         <StackLayout>
 
@@ -36,7 +38,10 @@
                     <Label x:Name="txtTakeaway" Text="Takeaway" />
                     <Label x:Name="txtDining" Text="Dining" />
                 </StackLayout>
-
+                <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                    <Button Text="Share" Style="{x:StaticResource buttonStyle}"/>
+                    <Button Text="+Review" x:Name="btnReview" Clicked="btnReview_Clicked"  Style="{x:StaticResource buttonStyle}"/>
+                </StackLayout>
 
             </StackLayout>
 
@@ -64,20 +69,20 @@
                                         BackgroundColor="AliceBlue" 
                                         HorizontalOptions="FillAndExpand">
                                         <Label 
-                                            Text="{Binding Name}" FontSize="Title"
+                                            Text="{Binding Title}" FontSize="Title"
                                             HorizontalOptions="FillAndExpand"/>
                                         <Label 
-                                            Text="{Binding Address}" FontSize="Subtitle"
+                                            Text="{Binding Details}" FontSize="Subtitle"
                                             HorizontalOptions="FillAndExpand"/>
                                         <StackLayout Orientation="Horizontal">
-                                            <Label Text="Food: 1/5"></Label>
+                                            <Label Text="{Binding FoodRating,StringFormat='Food Rating: {0}/5'}" ></Label>
                                             <Label Text=" | "></Label>
-                                            <Label Text="Food: 3/5"></Label>
+                                            <Label Text="{Binding ServiceRating,StringFormat='Service Rating: {0}/5'}" ></Label>
                                         </StackLayout>
                                         <StackLayout Orientation="Horizontal">
-                                            <Label Text="{Binding OpenAt}" />
-                                            <Button Text="Share"></Button>
-                                            <Button Text="Review"></Button>
+                                            <Label Text="{Binding ReviewDate,StringFormat='Date: {0:dd MM, yy}'}" />
+                                            <Label Text=" | "></Label>
+                                            <Label Text="{Binding UserId}" />
                                         </StackLayout>
                                     </StackLayout>
                                 </StackLayout>

@@ -3,11 +3,60 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FoodReview.View.RestaurantReviewPage"
              Title="Restaurant Reviews">
+    
     <ContentPage.Content>
-        <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center">
-            <Label Text="Welcome to Restaurant Review!" />
-            <Label x:Name="txtRestaurant" Text="Hello World"
-                   FontSize="Title" TextColor="Orange"/>
-        </StackLayout>
+        <Grid VerticalOptions="FillAndExpand" BackgroundColor="BlanchedAlmond">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="6*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Padding="0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#222">
+                <Image Source="img_2.jpg" Aspect="AspectFill" Opacity="0.4" IsOpaque="True"/>
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                    <Label Text="BD Food Lover's" Style="{StaticResource pageTitle}"/>
+                    <Label Text="Find Your Desired Restuarents" TextColor="LawnGreen" HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </Grid>
+
+            <ScrollView Grid.Row="1" Orientation="Vertical">
+                <StackLayout
+                     VerticalOptions="FillAndExpand" 
+                     Padding="10,15" >
+                    <Entry Text="" x:Name="txtResturantId" />
+                    <Entry Placeholder="Name" HorizontalTextAlignment="Start" x:Name="txtName" />
+                    <Editor Placeholder="Details" HeightRequest="150" x:Name="txtDetails" />
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                        
+                        <Picker Title="Select Service Rating" x:Name="pkrService">
+                            <Picker.Items>
+                                <x:String>0</x:String>
+                                <x:String>1</x:String>
+                                <x:String>2</x:String>
+                                <x:String>3</x:String>
+                                <x:String>4</x:String>
+                                <x:String>5</x:String>
+                            </Picker.Items>
+                        </Picker>
+                        <Picker Title="Select Food Rating" x:Name="pkrFood">
+                            <Picker.Items>
+                                <x:String>0</x:String>
+                                <x:String>1</x:String>
+                                <x:String>2</x:String>
+                                <x:String>3</x:String>
+                                <x:String>4</x:String>
+                                <x:String>5</x:String>
+                            </Picker.Items>
+                        </Picker>
+                    </StackLayout>
+
+
+                    <Button Text="Add New" Clicked="btnAddNew_Clicked"  x:Name="btnAddNew" Style="{StaticResource buttonStyle}"/>
+                    <Label x:Name="msgError"></Label>
+                </StackLayout>
+            </ScrollView>
+
+        </Grid>
     </ContentPage.Content>
+    
 </ContentPage>

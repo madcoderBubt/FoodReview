@@ -1,4 +1,5 @@
-﻿using FoodReview.Model;
+﻿using FoodReview.Data;
+using FoodReview.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,15 +15,20 @@ namespace FoodReview.View
     public partial class RestaurantPage : ContentPage
     {
         Restaurant restaurant;
+        private readonly RestaurantRepository repository;
+        
         public RestaurantPage()
         {
             InitializeComponent();
         }
+
         public RestaurantPage(Restaurant restaurant)
         {
             InitializeComponent();
 
             this.restaurant = restaurant;
+            repository = new RestaurantRepository();
+
             BindingContext = this;
         }
 
@@ -30,6 +36,36 @@ namespace FoodReview.View
         {
             base.OnAppearing();
 
+            init();
+            RefreshGrid();
+        }
+
+        private void ReviewItem_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void btnReview_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new RestaurantReviewPage(restaurant.ID));
+        }
+
+        private void RefreshGrid()
+        {
+            try
+            {
+                //Handling Task Method
+                var task = Task.Run(async () => await repository.GetReviewList(restaurant.ID));
+                ReviewItem.ItemsSource = task.Result;
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Error", ex.Message, "Ok");
+            }
+        }
+
+        private void init()
+        {
             txtAddress.Text = restaurant.Address;
             txtWebsite.Text = restaurant.Website;
             txtPhone.Text = restaurant.Phone;
@@ -52,11 +88,6 @@ namespace FoodReview.View
                 txtStatus.TextColor = Color.Red;
                 txtTime.Text = "Opens At: " + DateTime.Parse(restaurant.OpenAt.ToString()).ToString("t");
             }
-        }
-
-        private void ReviewItem_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
         }
     }
 }
