@@ -23,7 +23,7 @@
                 <StackLayout
                      VerticalOptions="FillAndExpand" 
                      Padding="10,15" >
-                    <Entry Text="" x:Name="txtResturantId" />
+                    <Entry Text="" x:Name="txtResturantId" IsVisible="false"/>
                     <Entry Placeholder="Name" HorizontalTextAlignment="Start" x:Name="txtName" />
                     <Editor Placeholder="Details" HeightRequest="150" x:Name="txtDetails" />
                     <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">

@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FoodReview.View.ExplorePage">
+             x:Class="FoodReview.View.ExplorePage"
+             Title="Explore">
     <ContentPage.Content>
         <StackLayout>
 
@@ -21,7 +22,7 @@
             <StackLayout BackgroundColor="#333">
                 <CollectionView x:Name="RestaurantView" 
                                 SelectionMode="Single"
-                                SelectionChanged="RestaurantView_SelectionChanged"
+                                SelectionChanged="RestaurantView_SelectionChanged"                                
                                 ItemsSource="{Binding Restaurants}">
                     <CollectionView.ItemsLayout>
                         <GridItemsLayout Orientation="Vertical" VerticalItemSpacing="10"/>
@@ -54,7 +55,7 @@
                                         <StackLayout Orientation="Horizontal">
                                             <Label Text="{Binding OpenAt}" />
                                             <Button Text="Share"></Button>
-                                            <Button Text="Review"></Button>
+                                            <Button Text="Review" x:Name="btnReview" Clicked="btnReview_Clicked"></Button>
                                         </StackLayout>
                                     </StackLayout>
                                 </StackLayout>

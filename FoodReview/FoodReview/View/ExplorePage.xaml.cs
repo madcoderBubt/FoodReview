@@ -54,6 +54,14 @@ namespace FoodReview.View
             String s = item.Name;
             Navigation.PushAsync(new RestaurantPage(item));
         }
+
+        private void btnReview_Clicked(object sender, EventArgs e)
+        {
+            var btn = sender as Button;
+            var item = btn.BindingContext as Restaurant;
+
+            Navigation.PushAsync(new RestaurantReviewPage(item.ID));
+        }
     }
 }
 

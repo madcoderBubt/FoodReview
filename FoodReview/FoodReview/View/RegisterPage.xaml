@@ -24,7 +24,7 @@
                 </StackLayout>
             </Grid>
 
-            <ScrollView Grid.Row="1" Orientation="Vertical">
+            <ScrollView Grid.Row="1" Orientation="Vertical" VerticalScrollBarVisibility="Always">
                 <StackLayout
                      VerticalOptions="FillAndExpand" 
                      Padding="10,15" >
