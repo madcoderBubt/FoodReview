@@ -45,7 +45,6 @@ D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\Vie
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\RegisterPage.xaml.g.cs
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\RestaurantPage.xaml.g.cs
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\RestaurantReviewPage.xaml.g.cs
-D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\SharedView\RestaurentView.xaml.g.cs
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\View\UserView.xaml.g.cs
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.AssemblyInfoInputs.cache
 D:\Running Project\FoodReview\FoodReview\FoodReview\obj\Debug\netstandard2.0\FoodReview.AssemblyInfo.cs

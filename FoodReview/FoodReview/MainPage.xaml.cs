@@ -40,6 +40,10 @@ namespace FoodReview
                     //await App.Current.MainPage.Navigation.PushAsync(new HomePage());
                     App.Current.MainPage = new HomePage();
                 }
+                else
+                {
+                    await DisplayAlert("Login Error", "You are not authorized user.", "ok");
+                }
             }
             catch (Exception ex)
             {
